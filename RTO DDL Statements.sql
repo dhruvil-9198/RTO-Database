@@ -193,28 +193,28 @@ CREATE TABLE Insurance(
 	FOREIGN KEY(Chassis_No) REFERENCES RC_Book(Chassis_No) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-SELECT * FROM RTO;
+-- SELECT * FROM RTO;
 
-SELECT * FROM Vehicle_Type;
+-- SELECT * FROM Vehicle_Type;
 
-SELECT * FROM Department;
+-- SELECT * FROM Department;
 
-SELECT * FROM Employee;
+-- SELECT * FROM Employee;
 
-SELECT * FROM Users;
+-- SELECT * FROM Users;
 
-SELECT * FROM License_Type;
+-- SELECT * FROM License_Type;
 
-SELECT * FROM License;
+-- SELECT * FROM License;
 
-SELECT * FROM LV_Association;
+-- SELECT * FROM LV_Association;
 
-SELECT * FROM Permit;
+-- SELECT * FROM Permit;
 
-SELECT * FROM Vehicle;
+-- SELECT * FROM Vehicle;
 
-SELECT * FROM Carnet;
+-- SELECT * FROM Carnet;
 
-SELECT * FROM RC_Book;
+-- SELECT * FROM RC_Book;
 
-SELECT * FROM Insurance;
+-- SELECT * FROM Insurance;
